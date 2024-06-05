@@ -40,9 +40,11 @@ if(myWallet > yourWallet) {
     console.log("Haha jokes on you")
 } if(myWallet < yourWallet) {
     console.log("Jokes on me :(")
-} else {
-    console.log("Money Twins?");
+} if(myWallet == yourWallet) {
+    console.log("Money Twins?")
+
 }
+
 // blackjack practice module
 
 let cardOne = 7
